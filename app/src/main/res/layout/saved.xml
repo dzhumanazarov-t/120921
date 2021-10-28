@@ -5,7 +5,7 @@
     android:layout_height="match_parent">
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/tb1"
+        android:id="@+id/tb2"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -17,95 +17,61 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:gravity="center"
+            android:gravity="start"
             android:orientation="horizontal">
 
-            <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@color/white"
-                android:src="@drawable/back" />
 
             <TextView
                 android:id="@+id/txt4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:fontFamily="@font/poppins_medium"
-                android:gravity="center"
-                android:text="Welcome"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="start"
+                android:text="@string/saved"
                 android:textColor="@color/black"
                 android:textSize="25dp" />
-
-            <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="40dp"
-                android:layout_marginLeft="180dp"
-                android:background="@color/white"
-                android:src="@drawable/settings" />
-
-
         </LinearLayout>
     </androidx.appcompat.widget.Toolbar>
 
     <LinearLayout
-        android:id="@+id/ll4"
+        android:id="@+id/ll12"
         android:layout_width="match_parent"
         android:layout_height="600dp"
-        android:layout_marginVertical="10dp"
         android:gravity="center"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="@+id/ll5"
+        app:layout_constraintBottom_toTopOf="@+id/ll11"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tb1">
+        app:layout_constraintTop_toTopOf="parent">
 
-        <Button
-            android:layout_width="325dp"
-            android:layout_height="55dp"
-            android:background="@drawable/shape3"
-            android:fontFamily="@font/poppins_semibold"
-            android:text="Continue with Google"
-            android:textAllCaps="false"
-            android:textColor="#FFFFFF"
-            android:textSize="17dp"
-            android:gravity="center"/>
-
-        <Button
-            android:layout_width="325dp"
-            android:layout_height="55dp"
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:background="@drawable/shape4"
-            android:fontFamily="@font/poppins_semibold"
-            android:text="Continue with Apple"
-            android:textAllCaps="false"
-            android:textColor="#FFFFFF"
-            android:textSize="17dp"
-            android:gravity="center"/>
+            android:src="@drawable/no_saved" />
 
-        <Button
-            android:layout_width="325dp"
-            android:layout_height="55dp"
-            android:layout_marginTop="15dp"
-            android:background="@drawable/shape5"
-            android:fontFamily="@font/poppins_semibold"
-            android:text="Continue with Facebook"
-            android:textAllCaps="false"
-            android:textColor="#FFFFFF"
-            android:textSize="17dp"
-            android:gravity="center"/>
-
+        <TextView
+            android:id="@+id/txt5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="center"
+            android:text="No Saves"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/ll5"
+        android:id="@+id/ll11"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="bottom"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/ll6"
+        app:layout_constraintBottom_toTopOf="@+id/ll10"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
+
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
@@ -113,7 +79,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/ll6"
+        android:id="@+id/ll10"
         android:layout_width="wrap_content"
         android:layout_height="80dp"
         android:gravity="center"
@@ -137,7 +103,6 @@
             android:background="@color/white"
             android:src="@drawable/find"
             android:tooltipText="find" />
-
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
