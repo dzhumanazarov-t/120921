@@ -79,7 +79,8 @@
             android:text="Select course"
             android:textAllCaps="false"
             android:textColor="@color/white"
-            android:textSize="16dp" />
+            android:textSize="16dp"
+            android:gravity="center"/>
     </LinearLayout>
 
     <LinearLayout
