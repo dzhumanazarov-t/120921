@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Gulnazik</string>
+    <string name="marks">Оценки</string>
+    <string name="gram">Грамматика</string>
+    <string name="tor">Рикардо Торио </string>
+    <string name="per22">22%</string>
+    <string name="gram1">4.5/5, 8/10, 9.5/10</string>
+    <string name="words">Слова</string>
+    <string name="toran">Рикардо Торио,Анджела Вегас</string>
+    <string name="per12">12%</string>
+    <string name="words1">3/5, 6/10, 3/7</string>
+    <string name="read">Чтение</string>
+    <string name="per0">0%</string>
+    <string name="an">Анджела Вегас</string>
+    <string name="listening">Слушание</string>
+    <string name="per20">20%</string>
+    <string name="listening1">10/10, 10/10</string>
+    <string name="les">Lessons</string>
+    <string name="my">Мой уровень языка А2</string>
+    <string name="progress">Весь прогресс</string>
+    <string name="t">2 016</string>
+    <string name="huita">HUITA</string>
+    <string name="chart">chart</string>
+    <string name="man">Man</string>
+    <string name="stars">stars</string>
+    <string name="en">Английский:</string>
+    <string name="ru">Русский:</string>
+    <string name="it">Итальянский:</string>
+    <string name="nt">Родной</string>
+    <string name="lr">Приобретенный</string>
+    <string name="ten">от 10$\час</string>
+    <<string name="eight">от 8$\час</string>
+    <string name="six">от 6$\час</string>
+</resources>
